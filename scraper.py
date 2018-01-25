@@ -17,7 +17,7 @@ print html
 root = lxml.html.fromstring(html)
 print root
 root.cssselect("div[align='left']")
-selectstuff = root.cssselect("div[align='left']")
+selectstuff = root.cssselect("a")
 print selectstuff
 
 urltoscrape = "http://site.com/"
