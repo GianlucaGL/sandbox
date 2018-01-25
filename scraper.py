@@ -4,8 +4,10 @@
 #import the scraperwiki library to store data
 import scraperwiki
 # import lxml.html
-#
+
 print "Hello World"
+myname = "Gianluca"
+print myname
 
 # # Read in a page
 # html = scraperwiki.scrape("http://foo.com")
