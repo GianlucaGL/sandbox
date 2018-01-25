@@ -17,8 +17,15 @@ print html
 root = lxml.html.fromstring(html)
 print root
 root.cssselect("div[align='left']")
+#this code didn't work because there's no div align='left'
+#root.casselect("div[align='left']")
+#grab all the a tags and put in selectstuff list variable
 selectstuff = root.cssselect("a")
 print selectstuff
+#start looping thoruhg the list of results
+for i in selectstuff:
+    print i.text # .text grabs the text content of the tag in i
+    print i.attrib['href'] # .attrib grabs the value of the attribute specified
 
 urltoscrape = "http://site.com/"
 listylist = ["p1","p2","p3"]
