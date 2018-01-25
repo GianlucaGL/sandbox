@@ -21,7 +21,7 @@ selectstuff = root.cssselect("div[align='left']")
 print selectstuff
 
 urltoscrape = "http://site.com/"
-listylist = ["p1","p2,","p3"]
+listylist = ["p1","p2","p3"]
 for blah in listylist:
     print blah
     fullurl = urltoscrape+blah
