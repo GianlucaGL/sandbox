@@ -20,7 +20,7 @@ root.cssselect("div[align='left']")
 selectstuff = root.cssselect("div[align='left']")
 print selectstuff
 
-listylist = ["p1","p2,""p3"]
+listylist = ["p1","p2,","p3"]
 print listylist
 #
 # # Write out to the sqlite database using scraperwiki library
