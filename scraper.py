@@ -15,6 +15,7 @@ print html
 #
 # # Find something on the page using css selectors
 root = lxml.html.fromstring(html)
+print root
 # root.cssselect("div[align='left']")
 #
 # # Write out to the sqlite database using scraperwiki library
