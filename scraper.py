@@ -27,6 +27,8 @@ for i in selectstuff:
     print i.text # .text grabs the text content of the tag in i
     print i.attrib['href'] # .attrib grabs the value of the attribute specified
 
+                           
+
 urltoscrape = "http://site.com/"
 listylist = ["p1","p2","p3"]
 for blah in listylist:
